@@ -1,3 +1,9 @@
 {
-    "name": "dahaiz/streamline"
+    "name": "dahaiz/streamline",
+
+    "autoload": {
+        "psr-4": {
+            "DaHaiz\\Streamline\\": "src/"
+        }
+    }
 }
